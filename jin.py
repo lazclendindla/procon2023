@@ -8,7 +8,7 @@ def action(n):
         bu[act[takumi]].config(bg="white")
         act[takumi]=n
         bu[n].config(bg=color[p])
-        if act[takumi]==0:
+        if act[takumi]==0: 
             but[bec[takumi]].config(bg="gray")
         elif act[takumi]>1 and bec[takumi]%2==0:
             but[bec[takumi]].config(bg="gray")
